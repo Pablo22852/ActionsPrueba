@@ -13,7 +13,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2' # Versión de PHP necesaria
+          php-version: '8.3' # Versión de PHP necesaria
 
       - name: Install Dependencies
         run: composer install --prefer-dist --no-progress
